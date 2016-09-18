@@ -1,0 +1,75 @@
+/* ================
+// Quizquiz
+// ============= */
+
+.qq-quiz {
+  max-width: 50em;
+  width: 100%;
+  margin: 1em auto;
+  padding: 1em;
+  background: #aae;
+  color: #fff;
+}
+
+  /* ================
+  // Feedback
+  // ============= */
+
+  .qq-feedback-group {}
+
+    .qq-feedback {
+      display: none;
+    }
+
+    .qq-feedback-active {
+      display: block;
+    }
+
+  /* ================
+  // Questions
+  // ============= */
+
+  .qq-questions {}
+
+  .qq-questions-inactive {
+    display: none;
+  }
+
+    .qq-item {
+      display: none;
+      padding: 1em;
+      background: #faa;
+    }
+
+    .qq-item-active {
+      display: block;
+    }
+
+      .qq-question {}
+
+      .qq-answer {}
+
+      .qq-choice {}
+
+  /* ================
+  // Questions
+  // ============= */
+
+  .qq-results {}
+
+    .qq-correct {}
+
+    .qq-incorrect {}
+
+    .qq-score {}
+
+/* ================
+// Structure
+// ============= */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {}

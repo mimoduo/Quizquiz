@@ -1,0 +1,49 @@
+/* ================
+// Quizquiz
+// ============= */
+.qq-quiz {
+  max-width: 50em;
+  width: 100%;
+  margin: 1em auto;
+  padding: 1em;
+  background: #aae;
+  color: #fff;
+}
+
+/* ================
+  // Feedback
+  // ============= */
+.qq-feedback {
+  display: none;
+}
+
+.qq-feedback-active {
+  display: block;
+}
+
+/* ================
+  // Questions
+  // ============= */
+.qq-questions-inactive {
+  display: none;
+}
+
+.qq-item {
+  display: none;
+  padding: 1em;
+  background: #faa;
+}
+
+.qq-item-active {
+  display: block;
+}
+
+/* ================
+  // Questions
+  // ============= */
+/* ================
+// Structure
+// ============= */
+* {
+  box-sizing: border-box;
+}
