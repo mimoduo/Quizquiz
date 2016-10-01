@@ -1,11 +1,12 @@
 {
   "name": "Quizquiz",
   "version": "0.1.0",
+  "homepage": "https://github.com/mimoduo/Quizquiz",
   "description": "A skeleton quiz ready for theming!",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mimoduo/Oneone"
+    "url": "https://github.com/mimoduo/Quizquiz.git"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.7",
